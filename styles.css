@@ -9,8 +9,8 @@ body.dark-theme {
 .sidebar {
   position: fixed;
   width: 270px;
-  height: auto; /* Adjust height dynamically */
-  max-height: 80vh; /* Sidebar won't take the whole screen */
+  height: auto;
+  max-height: 80vh;
   background-color: #181818;
   color: white;
   display: flex;
@@ -18,7 +18,7 @@ body.dark-theme {
   align-items: center;
   padding: 20px;
   box-shadow: 4px 0 10px rgba(0, 0, 0, 0.2);
-  top: 32%;
+  top: 40%;
   transform: translateY(-50%);
   border-radius: 10px;
 }
