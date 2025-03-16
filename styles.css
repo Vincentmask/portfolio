@@ -1,0 +1,142 @@
+/* General Dark Theme */
+body.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  width: 270px;
+  height: auto; /* Adjust height dynamically */
+  max-height: 80vh; /* Sidebar won't take the whole screen */
+  background-color: #181818;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 4px 0 10px rgba(0, 0, 0, 0.2);
+  top: 32%;
+  transform: translateY(-50%);
+  border-radius: 10px;
+}
+
+/* Sidebar Header */
+.sidebar-header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 3px solid #ffb400;
+}
+
+.sidebar-menu .sidebar-link:hover,
+.sidebar-menu .sidebar-link.active {
+  background-color: #ffb400;
+  border-radius: 5px;
+}
+
+/* Sidebar Info */
+.sidebar-info {
+  width: 100%;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.info-item {
+  background: #222;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.info-item i {
+  color: #ffb400;
+  font-size: 1rem;
+  margin-bottom: 3px;
+}
+
+.info-item span {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.info-item p {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+/* Sidebar Footer */
+.sidebar-footer {
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.sidebar-social {
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+
+.sidebar-social:hover {
+  color: #ffb400;
+}
+
+/* Main Content */
+.main-content {
+  margin-left: 290px;
+  padding: 40px;
+}
+
+/* About Section */
+.about-section {
+  max-width: 800px;
+  margin: auto;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #ffb400;
+}
+
+/* Service Cards */
+.service-card {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.service-card i {
+  font-size: 2rem;
+  color: #ffb400;
+  margin-bottom: 10px;
+}
+
+.service-card h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 0.9rem;
+}

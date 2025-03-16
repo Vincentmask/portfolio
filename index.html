@@ -3,16 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vincent Liang's portfolio</title>
+    <title>Vincent Liang | Portfolio</title>
 
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <!-- FontAwesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- Custom CSS for styling -->
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body class="dark-theme">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <img
+          src="./image/vincent.jpg"
+          alt="Vincent Liang"
+          class="profile-pic"
+        />
+        <h3 class="sidebar-title">Vincent Liang</h3>
+        <p class="sidebar-subtitle">Generative AI & Security</p>
+      </div>
+
+      <div class="sidebar-info">
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <span>Email</span>
+          <p>liangmask@gmail.com</p>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-phone"></i>
+          <span>Phone</span>
+          <p>+1 (503) 475-6981</p>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Location</span>
+          <p>Portland, Oregon, USA</p>
+        </div>
+      </div>
+
+      <div class="sidebar-footer">
+        <a href="https://github.com/yourusername" class="sidebar-social"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://linkedin.com/in/yourprofile" class="sidebar-social"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+    </aside>
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
@@ -41,19 +87,59 @@
       </div>
     </nav>
 
-    <section class="container my-5 text-center">
-      <h1>Hi, I'm Vincent Liang</h1>
-      <img
-        src="./image/vincent.jpg"
-        class="rounded-circle img-fluid"
-        width="200"
-        alt="Vincent Liang"
-      />
-      <p class="mt-3">
-        I'm a Computer Science graduate student at Portland State University
-        specializing in Generative AI and Security. I have experience building
-        retrieval-augmented systems and cloud-based applications.
-      </p>
-    </section>
+    <!-- Main Content -->
+    <main class="main-content">
+      <section class="about-section">
+        <h2 class="section-title"><span class="highlight">About Me</span></h2>
+        <h1>Hi, I'm Vincent Liang</h1>
+        <p>
+          I am a graduate student at Portland State University. My main areas of
+          focus are generative AI and security, and I’ve been fortunate to work
+          on several exciting projects, like building retrieval-augmented
+          systems and cloud-based applications. I’m also a Teaching Assistant
+          and Tutor Coordinator, so I really enjoy helping others learn and
+          solve problems.
+        </p>
+        <h3 class="sub-title">What I'm Doing</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="service-card">
+              <i class="fas fa-code"></i>
+              <h4>LeetCode</h4>
+              <p>
+                Practicing coding challenges to improve problem-solving skills.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-card">
+              <i class="fas fa-book"></i>
+              <h4>Studying</h4>
+              <p>
+                Exploring new technologies, research papers, and AI
+                advancements.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-card">
+              <i class="fas fa-laptop-code"></i>
+              <h4>Web Development</h4>
+              <p>Building high-quality, scalable web applications.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="service-card">
+              <i class="fas fa-shield-alt"></i>
+              <h4>Security Research</h4>
+              <p>Exploring cybersecurity threats and AI vulnerabilities.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
