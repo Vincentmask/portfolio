@@ -30,7 +30,7 @@ cd portfolio
 
 ### 2. Open in a Browser
 
-Simply open index.html in your browser.
+Simply open `index.html` in your browser.
 
 ---
 
