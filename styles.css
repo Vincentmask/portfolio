@@ -8,7 +8,7 @@ body.dark-theme {
 /* Sidebar */
 .sidebar {
   position: fixed;
-  width: 270px;
+  width: auto;
   height: auto;
   max-height: 80vh;
   background-color: #181818;
